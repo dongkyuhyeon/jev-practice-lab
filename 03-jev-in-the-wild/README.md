@@ -1,4 +1,8 @@
-# Threads 5개 분석
+# 3장. 공개 사례에서 본 JEV
+
+공개 게시물 다섯 개와 연결된 문서를 따라가며 판단 모델이 로컬 실행, 에이전트 도구, 코드 정책과 어떻게 연결되는지 살펴봅니다. 아래 내용은 공개 설명과 소스에서 확인한 범위를 기록한 것이며, 실제 운영 효과나 모델 성능을 재현한 결과가 아닙니다.
+
+## Threads 5개 분석
 
 사용자가 제공한 공유 링크를 직접 요청하고 HTML의 `og:url`, `og:title`, `og:description`에서 원문 주소와 공개 설명을 확인했습니다. 댓글·후속 게시물·이미지의 모든 내용을 수집한 것은 아닙니다.
 
@@ -50,3 +54,5 @@ README와 소스를 읽은 결과이지 본 저장소에서 해당 pi extension�
 - https://docs.ollama.com/api/systemone
 - https://github.com/typesafe-ai/skills
 - https://docs.liquid.ai/guides/decision-model-guide
+
+다음: [실습 1. JEV Decision Lab](../실습1/README.md)

@@ -16,11 +16,11 @@
 
 ## 이 저장소의 자동 테스트
 
-`test_decision_lab.py`는 요청 구조, Mock 출처, 정책 분기, 후보 밖 응답 거부, Noul 응답 호환을 검사합니다.
+`test_decision_lab.py`는 요청 구조, Mock 출처, 정책 분기, 후보 밖 응답 거부, Noul 응답 호환을 검사합니다. 저장소 루트에서 다음을 실행합니다.
 
 ```bash
-python -m unittest -v
-python -m py_compile decision_lab.py test_decision_lab.py
+python -m unittest discover -s 실습1 -v
+python -m py_compile 실습1/decision_lab.py 실습1/test_decision_lab.py
 ```
 
 Mock 출력은 코드 동작 검증이며 실제 JEV의 정확도·calibration·속도 검증이 아닙니다. 원격 API를 호출하는 테스트는 포함하지 않습니다.
